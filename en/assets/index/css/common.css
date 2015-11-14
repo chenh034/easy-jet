@@ -1,0 +1,126 @@
+html{
+
+}
+body{
+
+}
+a:hover{
+	text-decoration: none;
+}
+.clear:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clear{zoom:1} 
+
+/*头部*/
+#header{
+	width: 960px;
+	height: 94px;
+	margin: 0 auto;
+	border-bottom: 2px solid #d4d4d4;
+}
+#header #logo{
+	width: 334px;
+	height: 94px;
+	float: left;
+	background-color: #0856ac;
+}
+#logo #easy-jet{
+	width: 145px;
+	height: 41px;
+	background: url(../img/logo.png) no-repeat;
+	position: relative;
+	left: 158px; top: 24px;
+}
+#header #nav{
+	width: 520px;
+	height: 94px;
+	float: left;
+	margin-left: 80px;
+	position: relative;
+}
+#nav ul{
+	position: absolute;
+	top: 62px;
+}
+#nav li{
+	float: left;
+	margin-left: 36px;
+}
+#nav li a{
+	display: block;
+	height: 31px;
+	color: #4f4f4f;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.current{
+	background:url(../img/nav-bg.png) repeat-x;
+}
+#nav li a:hover{
+	background:url(../img/nav-bg.png) repeat-x;
+}
+#header #nav #language{
+	background-color: #d4d4d4;
+	width: 150px;
+	height: 34px;
+	position: absolute;
+	top: 0px;right: 30px;
+	line-height: 34px;
+	text-align: center;
+}
+#language a{
+	color: #4f4f4f;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+
+}
+
+
+
+
+
+/*底部*/
+#footer{
+	width: 100%;
+	height: 182px;
+	background: url(../img/footer-bg.png) repeat-x;
+	margin: 1px auto;
+}
+
+#footer #contact{
+	width: 930px;
+	height: 120px;
+	margin: 0px auto;
+	position: relative;
+	top: 24px;
+	background: url(../img/contact-bg.png) no-repeat 28px 0px;
+}
+#footer li{
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+#footer #place{
+	float: left;
+	position: absolute;
+	top:20px; left: 100px;
+}
+#place li{
+	margin-bottom: 40px;
+}
+#footer #email{
+	float: left;
+	position: absolute;
+	top: 4px; left: 669px;
+}
+#email li{
+	margin-bottom: 26px;
+}
+
+#copyright p{
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	position: relative;
+	top: 40px;
+}

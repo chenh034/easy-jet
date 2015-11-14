@@ -1,0 +1,19 @@
+#content{
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#content .title{
+	height: 36px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #4f4f4f;
+	background: url(../img/contact/title-bg.png) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin:46px 0 0 22px;
+}
+#content li{
+	margin-top: 20px;
+}

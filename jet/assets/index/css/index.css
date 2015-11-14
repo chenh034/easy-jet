@@ -1,0 +1,83 @@
+
+
+/*内容主体*/
+#content{
+	width: 960px;
+	height: 622px;
+	margin: 0 auto;
+}
+#content #banner{
+	width: 960px;
+	height: 324px;
+	position: relative;
+	overflow: hidden;
+}
+#content #banner ul li{
+	float: left;
+	display: block;
+	width: 960px;
+}
+#content #banner ul{
+	position: absolute;
+	top: 0px; left: 0px;
+	/*width: 2880px;*/
+}
+
+#banner ol{
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+}
+
+#banner ol li{
+	float: left;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+	border: 1px solid #f3a020;
+	border-radius: 6px 6px 6px 6px;
+	background: #0856ac;
+	color: #0856ac;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+#banner ol li.current{
+	background: #fff;
+	color: #000;
+}
+
+
+#content #product{
+	width: 960px;
+	height: 250px;
+}
+#content #product ul{
+	margin-left: 20px;
+}
+#product li{
+	display: block;
+	width: 208px;
+	height: 244px;
+	float: left;
+	border: 3px solid #b5b5b5;
+	margin-left: 25px;
+	text-align: center;
+}
+#product .read{
+	color:#fff;
+
+}
+#product li:hover{
+	background: url(../img/product-bg.png) repeat-x;
+	color: #fff;
+	border-bottom: none;
+}
+#product li p{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin: 14px 0 8px 0;
+}
+
+

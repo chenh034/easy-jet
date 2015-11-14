@@ -1,0 +1,77 @@
+#content{
+   width: 960px;
+   margin: 0 auto;
+   background-color: #e8e7e7;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 30px;
+}
+
+#content .title{
+	height: 36px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #4f4f4f;
+	background: url(../img/contact/title-bg.png) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin:26px 0 0 22px;
+}
+
+#main-active{
+	width: 910px;
+	margin-left: 22px;
+}
+#main-active #p-title{
+    font-size: 18px;
+	font-family: '微软雅黑';
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	margin-top: 15px;
+	text-align: center;
+}
+#main-active #p-time{
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: '微软雅黑';
+	text-align: center;
+}
+
+#active{
+	margin-left: 30px;
+	width: 890px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-top: 1px dashed #bea8a8;
+	border-bottom: 1px dashed #bea8a8;
+}
+
+#pre{
+	display: block;
+	width: 80px;
+	height: 40px;
+	background-color: #0856ac;
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#jump{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+#jump a{
+	font-size: 14px;
+	line-height: 30px;
+}
+#jump .p-jump{
+	font-size: 14px;
+	line-height: 30px;
+}
+#jump a:hover{
+	color: #2a60ea;
+}

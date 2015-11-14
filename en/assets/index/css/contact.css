@@ -1,0 +1,37 @@
+
+
+#content{
+	width: 960px;
+	height: 590px;
+	margin: 0 auto;
+}
+
+#content .title{
+	height: 36px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #4f4f4f;
+	background: url(../img/contact/title-bg.png) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin:46px 0 0 22px;
+}
+#content ul{
+	margin-top: 100px;
+	margin-left: 30px;
+	float: left;
+}
+#content li{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #4f4f4f;
+	margin-bottom: 14px;
+}
+
+#content #allmap{
+	width: 466px;
+	height: 278px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 24px;
+}

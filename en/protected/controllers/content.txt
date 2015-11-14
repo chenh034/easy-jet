@@ -1,0 +1,35 @@
+<p class="title" >公司动态</p>
+        
+        <ul>
+        <?php foreach($Infos as $v): ?>
+          <li class="clear">
+            <div class="active-l">
+              <a href="<?php echo $this->createUrl('detail', array('aid'=>$v->aid)) ?>">
+                <img width="178" height="156" alt="图片加载失败" src="<?php echo Yii::app()->request->baseUrl ?>/uploads/active/<?php echo $v->thumb ?>">
+              </a>
+            </div>
+            <div class="active-r">
+              <h3> 
+                 <a href="<?php echo $this->createUrl('detail', array('aid'=>$v->aid)) ?>"> <?php echo $v->title ?> </a>
+              </h3>
+              <p class="p-info"><?php echo $v->info ?></p>
+              <p class="p-time"><?php echo date('Y-m-d', $v->time) ?></p>
+            </div>
+          </li>
+          
+        <?php endforeach ?>
+        </ul>
+
+        <div id="page">
+          <?php 
+            $this->widget('CLinkPager', array(
+              'header'  =>  '',
+              'firstPageLabel'  => '首页',
+              'lastPageLabel' => '末页',
+              'prevPageLabel' => '上一页',
+              'nextPageLabel' => '下一页',
+              'pages'     => $pages,
+              'maxButtonCount'=> 5,
+              ));
+           ?>
+        </div>

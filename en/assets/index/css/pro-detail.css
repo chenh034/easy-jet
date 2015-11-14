@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none;
+}
+
+.zoom{
+	margin: 50px;
+	position: relative;
+}
+#content{
+   width: 960px;
+   margin: 0 auto;
+   background-color: #e8e7e7;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 30px;
+   position: relative;
+}
+
+#content .title{
+	height: 36px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #4f4f4f;
+	background: url(../img/contact/title-bg.png) no-repeat;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin:26px 0 0 22px;
+}
+
+
+
+.zoomMiddle{
+	border: 1px solid #ccc;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 3px;
+	position: relative;
+}
+.zoomMiddle img{
+	width: 300px;
+	height: 300px;
+}
+
+.mask{
+	width: 100px;
+	height: 100px;
+	background: #abcdef;
+	opacity:0.4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.zoomSmall{
+	-overflow: hidden;
+	width: 302px;
+	height: 54px;
+}
+.zoomSmall span{
+	float: left;
+	height: 52px;
+	line-height: 52px;
+	width: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.zoomSmall span.disable{
+	cursor: default;
+	background: #ccc;
+}
+.wrapSmallImg{
+	float: left;
+	height: 54px;
+	width: 232px;
+	/*background: #f00;*/
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapSmallImg ul{
+	width: 348px;
+	/*background: #f00;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.wrapSmallImg ul li{
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #ccc;
+	margin: 0 2px;
+	_display: inline;
+	cursor: pointer;
+}
+.wrapSmallImg ul li.current{
+	border: 2px solid orange;
+}
+.wrapSmallImg ul li img{
+	width: 50px;
+	height: 50px;
+}
+
+.zoomLarge{
+	width: 350px;
+	height: 360px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 0;
+	left: 356px;
+	overflow: hidden;
+	display:none;
+	z-index: 100;
+}
+
+.zoomLarge img{
+	width: 600px;
+	height:600px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+#pro-name{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: '微软雅黑';
+	width: 460px;
+	text-align: center;
+	position: absolute;
+	top: 125px; left: 406px;
+	text-align: center;
+	border-top: 1px solid #807979;
+	border-bottom: 1px solid #807979;
+	padding: 6px 0;
+}
+
+#pro-info{
+	font-size: 16px;
+	font-family: '微软雅黑';
+	width: 460px;
+	top: 175px;left: 406px;
+	position: absolute;
+}
+#pro-content{
+	width: 860px;
+	margin: 20px auto;
+}
+
+
+#jump{
+	margin-top: 30px;
+	margin-left: 30px;
+	border-top: 1px solid #807979;
+}
+#jump a{
+	font-size: 14px;
+	line-height: 30px;
+}
+#jump .p-jump{
+	font-size: 14px;
+	line-height: 30px;
+}
+#jump a:hover{
+	color: #2a60ea;
+}
+
+#pre{
+	display: block;
+	width: 80px;
+	height: 40px;
+	background-color: #0856ac;
+	color: #fff;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#no-zoom{
+	height: 360px;
+	width: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
